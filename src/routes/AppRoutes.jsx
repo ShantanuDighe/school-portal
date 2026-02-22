@@ -1,8 +1,8 @@
-import { Routes, Route } from "react-router-dom"
-import Login from "../features/auth/Login"
-import ParentDashboard from "../features/dashboard/ParentDashboard"
-import StudentDashboard from "../features/dashboard/StudentDashboard"
-import PortalLayout from "../components/layout/PortalLayout"
+import { Routes, Route } from "react-router-dom";
+import Login from "../features/auth/Login";
+import ParentDashboard from "../features/dashboard/ParentDashboard";
+import StudentDashboard from "../features/dashboard/StudentDashboard";
+import PortalLayout from "../components/layout/PortalLayout";
 
 function AppRoutes() {
   return (
@@ -17,7 +17,7 @@ function AppRoutes() {
         <Route index element={<StudentDashboard />} />
       </Route>
     </Routes>
-  )
+  );
 }
 
-export default AppRoutes
+export default AppRoutes;

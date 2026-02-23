@@ -1,4 +1,4 @@
-import { Outlet } from "react-router-dom"
+import { Outlet } from "react-router-dom";
 import Sidebar from "./Sidebar"
 import Topbar from "./Topbar"
 
@@ -13,7 +13,7 @@ function PortalLayout({ role }) {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default PortalLayout
+export default PortalLayout;

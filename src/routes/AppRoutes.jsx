@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import ParentDashboard from "../features/dashboard/ParentDashboard";
-import StudentDashboard from "../features/dashboard/StudentDashboard";
+//import StudentDashboard from "../features/dashboard/StudentDashboard";
 import PortalLayout from "../components/layout/PortalLayout";
 
 function AppRoutes() {
